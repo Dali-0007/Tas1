@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .poll-container {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    /* border: 1px solid #ccc; */
+    border-radius: 8px;
+  }
+  .poll-option {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .poll-option-item {
+    width: 48%;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .poll-option-item img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  .player-name {
+    font-weight: bold;
+  }
+  .vote-button {
+    display: block;
+    margin: 20px auto;
+    padding: 15px 160px;
+    font-size: 80 px;
+    border: none;
+    border-radius: 8px;
+    background-color:gray;
+    color: #fff;
+    cursor: pointer;
+  }
+  @media (max-width: 768px) {
+    .poll-option-item {
+      width: 100%;
+    }
+  }
+  .name-container {
+    display: flex;
+
+  }
+image {
+    size: 20px;
+    background-color: white;
+}
+#player2{
+ background-color: black;
+}
